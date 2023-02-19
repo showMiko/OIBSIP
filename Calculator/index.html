@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron&text=0123456789:AMP' rel='stylesheet' type='text/css'> 
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input class="btn" type="text" placeholder="0" id="output" disabled>
+            <button class="reset" onclick="Clear()">Cl</button>
+            <button class="reset" onclick="del()">Del</button>
+            <button class ="bttn" onclick="displayOp('%')">%</button>
+            <button class ="bttn" onclick="displayOp('/')">/</button>
+            <button class="btn" onclick="displayno('7')">7</button>
+            <button class="btn" onclick="displayno('8')">8</button>
+            <button class="btn" onclick="displayno('9')">9</button>
+            <button class ="bttn" onclick="displayOp('*')">*</button>
+            <button class="btn" onclick="displayno('4')">4</button>
+            <button class="btn" onclick="displayno('5')">5</button>
+            <button class="btn" onclick="displayno('6')">6</button>
+            <button class ="bttn" onclick="displayOp('-')">-</button>
+            <button class="btn" onclick="displayno('1')">1</button>
+            <button class="btn" onclick="displayno('2')">2</button>
+            <button class="btn" onclick="displayno('3')">3</button>
+            <button class ="bttn" onclick="displayOp('+')">+</button>
+            <button class="btn"  onclick="displayno('.')">.</button>
+            <button class="btn" onclick="displayno('0')">0</button>
+            <button class="equal bttn" onclick="Calculate()">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
