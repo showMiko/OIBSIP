@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 214);
+}
+.banner{
+    position: absolute;
+    width: 100vw;
+    max-width: 200000px;
+    height: 218px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFA552;
+}
+.image{
+    position: absolute;
+width: 230px;
+height: 218px;
+left: 58px;
+top: 109px;
+border: 4px solid black;
+object-fit: cover;
+}
+.quote{
+    position: absolute;
+width: 757px;
+height: 122px;
+left: 30vw;
+top: 70px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 2rem;
+line-height: 48px;
+text-align: right;
+
+color: #000000;
+}
+.detail{
+    position: absolute;
+width: 80vw;
+/* height: 50vh; */
+/* max-height: 90vh; */
+left: 10vw;
+right: 10vw;
+top: 400px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: larger;
+
+background: #3AFF5A;
+}
